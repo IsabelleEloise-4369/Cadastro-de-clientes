@@ -20,4 +20,4 @@ Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato no
 
 - Isabelle Eloise Rugno Ferreira:(isabelle.eloise4369@gmail.com)
 
-Estamos sempre abertos para feedback e colaboração!
+Estou sempre aberta para feedback e colaboração!
