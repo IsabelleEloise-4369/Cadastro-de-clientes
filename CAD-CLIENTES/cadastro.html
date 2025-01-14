@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes v01</title>
+    <link rel="stylesheet" href="/cadastro.css">
+    <script src="/cadastro.js" defer></script>
+</head>
+<body>
+
+    <div class="background-video">
+        <video autoplay loop muted poster="your_poster.jpg">
+          <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>      
+
+    <!-- ATRIBUIR IDs, classes, marcação para JS
+    tr- - linhas da tabela
+    td- item da linha da tabela
+    th- item do cabeçalho da tabela (thead)
+    tbody- corpo da tabela
+    thead- cabeçalho da tabela
+    Nome das classes com - em palavras compostas
+     -->
+     <main>
+
+        <!-- ------------------------- HEADER ------------------------------------ -->
+        <header>
+            
+            <h1> GERENCIAMENTO DE CLIENTES </h1>
+
+        </header>
+
+        <!-- --------------------- SEÇÃO DO CONTAINER FORMULÁRIO ------------------------------- -->
+
+        <section class="container__formulario">
+
+            <form class="formulario">
+                <h2>Cadastro de clientes</h2>
+                <label for="nome"> Nome: </label>
+                <input type="text" id="item" name="item" class="itemNome">
+                <p></p>
+                <label for="nome"> Email: </label>
+                <input type="text" id="email" name="email" class="itemEmail">
+                <p></p>
+                <label for="nome"> WhatsApp: </label>
+                <input type="number" id="whatsApp" name="whatsApp" class="itemWhatsApp">
+                <p></p>
+
+                <button type="button" id="btn-cadastrar" class="btnCadastrar">Cadastrar</button>
+            </form>
+
+        </section>
+
+        <!-- -------------------- SEÇÃO ALERTA QUE ESTOU CHAMANDO NO JS -----------------------  -->
+        <section class="alert"></section>
+
+
+
+        <!-- ------ SEÇÃO DE PESQUISA, ONDE ESTÁ O INPUT E O BOTÃO NA QUAL A PESSOA PESQUISARÁ O CLIENTE QUE DESEJA ------ -->
+
+        <section class="container__pesquisa">
+
+            <h2> Pesquisar Clientes </h2>
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar Cliente" class="pesquisa">
+            <button type="button" id="btn-pesquisa" class="btnPesquisa">Pesquisar</button>
+
+        </section>
+
+
+
+        <!-- ------------------------------- SEÇÃO DA TABELA  ----------------------------------- -->
+
+        <section class="container__tabela">
+
+            <!-- TABELA EM QUE OS ITENS SERÃO INSERIDOS -->
+            <table class="tabela">
+
+                <!-- CABEÇALHO DA TELA -->
+                <thead>
+                    <!-- LINHA DA TABELA -->
+                    <tr>
+                        <!-- CABEÇALHO DESSA LINHA -->
+                        <th> Nome </th>
+                        <th> Email </th>
+                        <th> WhatsApp </th>
+                        <th> Ações </th>
+                        
+                    </tr>
+
+                </thead>
+
+                <!-- CORPO DA TABELA (LINHAS E COLUNAS (tr e td)) -->
+                <tbody>
+                    <!-- CÓDIGO INJETADO POR JavaScript -->
+                </tbody>
+            </table>
+
+        </section>
+
+
+     </main>
+    
+</body>
+</html>
